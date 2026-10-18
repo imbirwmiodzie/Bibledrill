@@ -1,0 +1,10 @@
+{
+ "_comment": "Gospel of the day by liturgical day key (see web/js/calendar.js). Ordinary Time: OT<week>-<weekday 0=Sunday>[-<Sunday cycle>]. Proof of concept: 29th and 30th week of Ordinary Time only.",
+ "days": [
+  {
+   "key": "OT29-0-A",
+   "ref": "Mt 22:15-21",
+   "passage": "mt-22-15-21"
+  }
+ ]
+}

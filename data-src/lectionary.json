@@ -1,0 +1,13 @@
+{
+ "_comment": "Gospel of the day by liturgical day key (see web/js/calendar.js). Ordinary Time: OT<week>-<weekday 0=Sunday>[-<Sunday cycle>]. Proof of concept: 29th and 30th week of Ordinary Time only.",
+ "days": [
+  {"key": "OT29-0-A", "ref": "Mt 22:15-21", "passage": "mt-22-15-21"},
+  {"key": "OT29-1", "ref": "Lk 12:13-21", "passage": "lk-12-13-21"},
+  {"key": "OT29-2", "ref": "Lk 12:35-38", "passage": "lk-12-35-38"},
+  {"key": "OT29-3", "ref": "Lk 12:39-48", "passage": "lk-12-39-48"},
+  {"key": "OT29-4", "ref": "Lk 12:49-53", "passage": "lk-12-49-53"},
+  {"key": "OT29-5", "ref": "Lk 12:54-59", "passage": "lk-12-54-59"},
+  {"key": "OT29-6", "ref": "Lk 13:1-9", "passage": "lk-13-1-9"},
+  {"key": "OT30-0-A", "ref": "Mt 22:34-40", "passage": "mt-22-34-40"}
+ ]
+}

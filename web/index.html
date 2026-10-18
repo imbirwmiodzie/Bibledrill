@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bibledrill</title>
+  <meta name="description" content="The Gospel of the day in English, Polish and Italian, word by word with the Greek original.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-name">Bibledrill</span>
+      <span class="brand-tagline" id="tagline"></span>
+    </div>
+    <div class="lang-switch" role="group" aria-label="Language" id="lang-switch">
+      <button type="button" data-lang="en">EN</button>
+      <button type="button" data-lang="pl">PL</button>
+      <button type="button" data-lang="it">IT</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="reader" aria-live="polite">
+      <nav class="datebar">
+        <button type="button" class="icon-btn" id="prev-day">‹</button>
+        <label class="date-label">
+          <span id="date-text"></span>
+          <input type="date" id="date-input">
+        </label>
+        <button type="button" class="icon-btn" id="next-day">›</button>
+        <button type="button" class="chip" id="today-btn"></button>
+      </nav>
+
+      <article class="day-card" id="day-card"></article>
+
+      <div class="toolbar" id="toolbar">
+        <div class="seg" role="group" id="view-switch">
+          <button type="button" data-view="read"></button>
+          <button type="button" data-view="parallel"></button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="greek-toggle"> <span id="greek-toggle-label"></span></label>
+      </div>
+
+      <div class="gospel" id="gospel"></div>
+
+      <footer class="sources" id="sources"></footer>
+    </section>
+
+    <aside class="panel" id="panel" aria-hidden="true">
+      <div class="panel-inner" id="panel-inner"></div>
+    </aside>
+  </main>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

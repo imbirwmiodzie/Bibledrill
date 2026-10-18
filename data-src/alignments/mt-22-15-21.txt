@@ -1,0 +1,42 @@
+# Word alignment: each translated word is linked to Greek tokens of the same verse.
+#   word[3]      -> Greek token 3 of this verse (1-based, MorphGNT/SBLGNT order)
+#   word[3,4]    -> several Greek tokens
+#   word[20.2]   -> token 2 of verse 20 (same chapter); for verse-boundary differences
+#   coglier[9]lo[8] -> a bracket inside a word splits it (clitics, elision)
+# Words without a bracket have no Greek counterpart (added by the translator).
+book: Mt
+
+@ 22:15
+en: Then[1] the[3] Pharisees[4] went[2] and took[6] counsel[5] how[7] they[9] might[9] entrap[9] him[8] in[10] his talk[11].
+pl: Tedy[1] odszedłszy[2] Pharyzeuszowie[4], radzili[5,6] się[5,6], jakoby[7] go[8] podchwycili[9] w[10] mowie[11].
+it: Allora[1] i[3] Farisei[4], ritiratisi[2], tennero[6] consiglio[5] per[7] veder di coglier[9]lo[8] in[9] fallo[9] nelle[10] sue parole[11].
+
+@ 22:16
+en: They[2] sent[2] their[6] disciples[5] to[3] him[3], along[7] with[7] the[8] Herodians[9], saying[10], “Teacher[11], we[12] know[12] that[13] you[15] are[15] honest[14], and[16] teach[23] the[17] way[18] of[19] God[20] in[21] truth[22], no[25] matter[26] whom[28,29] you[27] teach; for[31] you[32] aren’t[30] partial[32,33,34] to[35] anyone[35].
+pl: I[1] posłali[2] mu[3] ucznie[5] swoje[6] z[7] Herodyany[9], mówiąc[10]: Nauczycielu[11]! wiemy[12], iżeś[13,15] jest[15] prawdziwy[14], i[16] drogi[18] Bożéj[19,20] w[21] prawdzie[22] nauczasz[23], a[24] nie[25] dbasz[26,27] ni[29] na[28] kogo[29]; albowiem[31] nie[30] oglądasz[32] się[32] na[33] osobę[34] ludzką[35].
+it: E[1] gli[3] mandarono[2] i loro[6] discepoli[5] con[7] gli[8] Erodiani[9] a dir[10]gli: Maestro[11], noi[12] sappiamo[12] che[13] sei[15] verace[14] e[16] insegni[23] la[17] via[18] di[19] Dio[20] secondo[21] verità[22], e[24] non[25] ti[27] curi[26] d’[28]alcuno[29], perché[31] non[30] guardi[32] all’[33]apparenza[34] delle[35] persone[35].
+
+@ 22:17
+en: Tell[1] us[3] therefore[2], what[4] do[6] you[5] think[6]? Is[7] it[7] lawful[7] to[8] pay[8] taxes[9] to[10] Caesar[10], or[11] not[12]?”
+pl: Powiedzże[1] nam[3] tedy[2], co[4]ć[5] się[6] zda[6]? godzili[7] się[7] dać[8] czynsz[9] Cesarzowi[10], czyli[11] nie[12]?
+it: Dic[1]ci[3] dunque[2]: Che[4] te[5] ne pare[6]? E’[7] egli[7] lecito[7] pagare[8] il tributo[9] a[10] Cesare[10], o[11] no[12]?
+
+@ 22:18
+en: But[2] Jesus[4] perceived[1] their[7] wickedness[6], and said[8], “Why[9] do[11] you[11] test[11] me[10], you[12] hypocrites[12]?
+pl: A[2] Jezus[4] poznawszy[1] złość[6] ich[7], rzekł[8]: Czemu[9] mię[10] kusicie[11], obłudnicy[12]?
+it: Ma[2] Gesù[4], conosciuta[1] la[5] loro[7] malizia[6], disse[8]: Perché[9] mi[10] tentate[11], ipocriti[12]?
+
+@ 22:19
+en: Show[1] me[2] the[3] tax[5,6] money[4].” They[7] brought[9] to[10] him[10] a denarius[11].
+pl: Pokażcie[1] mi[2] monetę[4] czynszową[5,6]. A[8] oni[7] mu[10] przynieśli[9] grosz[11].
+it: Mostrate[1]mi[2] la[3] moneta[4] del[5] tributo[6]. Ed[8] essi[7] gli[10] porsero[9] un denaro[11]. Ed[20.1] egli[20.2] domandò[20.2] loro[20.3]:
+
+@ 22:20
+en: He[2] asked[2] them[3], “Whose[4] is this[7] image[6] and[8] inscription[10]?”
+pl: I[1] rzekł[2] im[3] Jezus: Czyj[4] jest ten[7] obraz[6] i[8] napis[10]?
+it: Di[4] chi[4] è questa[7] effigie[6] e[8] questa iscrizione[10]?
+
+@ 22:21
+en: They[1] said[1] to[2] him[2], “Caesar’s[3].” Then[4] he[5] said[5] to[6] them[6], “Give[7] therefore[8] to[11] Caesar[11] the[9] things[9] that are Caesar’s[10], and[12] to[16] God[17] the[13] things[13] that are God’s[14,15].”
+pl: Rzekli[1] mu[2]: Cesarski[3]. Tedy[4] rzekł[5] im[6]: Oddajcież[7] tedy[8] co[9] jest Cesarskiego[10], Cesarzowi[11], a[12] co[13] jest Bożego[14,15], Bogu[16,17].
+it: Gli[2] risposero[1]: Di[3] Cesare[3]. Allora[4] egli[5] disse[5] loro[6]: Rendete[7] dunque[8] a[11] Cesare[11] quel[9] ch’è di[10] Cesare[10], e[12] a[16] Dio[17] quel[13] ch’è di[14] Dio[15].
