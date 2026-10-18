@@ -1,0 +1,37 @@
+# 30th Sunday in Ordinary Time, Year A. Format: see mt-22-15-21.txt
+book: Mt
+
+@ 22:34
+en: But[2] the[1] Pharisees[3], when[4] they[4] heard[4] that[5] he[6] had[6] silenced[6] the[7] Sadducees[8], gathered[9] themselves[9] together[10,11,12].
+pl: A[2] usłyszawszy[4] Pharyzeuszowie[3], iż[5] usta[6] zawarł[6] Sadduceuszom[8], zeszli[9] się[9] społu[10,11,12].
+it: Or[2] i[1] Farisei[3], udito[4] ch’[5]egli[6] avea[6] chiusa[6] la bocca[6] a’[7] Sadducei[8], si[9] raunarono[9] insieme[10,11,12];
+
+@ 22:35
+en: One[3] of[4] them[5], a lawyer[6], asked[2] him a question[2], testing[7] him[8].
+pl: I[1] zapytał[2] go jeden[3] z[4] nich[5], zakonny[6] Doktor[6], kusząc[7] go[8]:
+it: e[1] uno[3] di[4] loro[5], dottor[6] della legge[6], gli domandò[2], per metter[7]lo[8] alla prova[7]:
+
+@ 22:36
+en: “Teacher[1], which[2] is the greatest[4] commandment[3] in[5] the[6] law[7]?”
+pl: Nauczycielu[1]! które[2] jest wielkie[4] przykazanie[3] w[5] zakonie[7]?
+it: Maestro[1], qual[2] è, nella[5,6] legge[7], il gran[4] comandamento[3]?
+
+@ 22:37
+en: Jesus[1] said[3] to[4] him[4], “‘You[5] shall[5] love[5] the Lord[6] your[9] God[8] with[10] all[11] your[14] heart[13], with[16] all[17] your[20] soul[19], and[21] with[22] all[23] your[26] mind[25].’
+pl: Rzekł[3] mu[4] Jezus[1]: Będziesz[5] miłował[5] Pana[6], Boga[8] twego[9], ze[10] wszystkiego[11] serca[13] twego[14] i[15] ze[16] wszystkiéj[17] dusze[19] twojéj[20] i[21] że[22] wszystkiéj[23] myśli[25] twojéj[26].
+it: E[2] Gesù[1] gli[4] disse[3]: Ama[5] il Signore[6] Iddio[8] tuo[9] con[10] tutto[11] il[12] tuo[14] cuore[13] e[15] con[16] tutta[17] l’[18]anima[19] tua[20] e[21] con[22] tutta[23] la[24] mente[25] tua[26].
+
+@ 22:38
+en: This[1] is[2] the[3] first[6] and[5] great[4] commandment[7].
+pl: To[1]ć jest[2] największe[4] i[5] pierwsze[6] przykazanie[7].
+it: Questo[1] è[2] il[3] grande[4] e[5] il primo[6] comandamento[7].
+
+@ 22:39
+en: A second[1] likewise[3] is this[4], ‘You[5] shall[5] love[5] your[8] neighbor[7] as[9] yourself[10].’
+pl: A[2] wtóre[1] podobne[3] jest temu[4]: Będziesz[5] miłował[5] bliźniego[7] twego[8] jako[9] samego[10] siebie[10].
+it: Il secondo[1], simile[3] ad[4] esso[4], è: Ama[5] il[6] tuo[8] prossimo[7] come[9] te[10] stesso[10].
+
+@ 22:40
+en: The[7] whole[6] law[8] and[10] the[11] prophets[12] depend[9] on[1] these[2] two[4] commandments[5].”
+pl: Na[1] tem[2] dwojgu[4] przykazaniu[5] wszystek[6] zakon[8] zawisł[9] i[10] prorocy[12].
+it: Da[1] questi[2] due[4] comandamenti[5] dipendono[9] tutta[6] la[7] legge[8] ed[10] i[11] profeti[12].

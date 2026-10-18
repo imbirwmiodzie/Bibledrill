@@ -1,0 +1,47 @@
+# Saturday of the 29th week in Ordinary Time. Format: see mt-22-15-21.txt
+book: Lk
+
+@ 13:1
+en: Now[2] there[1] were[1] some[3] present[1] at[4] the[6] same[5] time[7] who told[8] him[9] about[10] the[11] Galileans[12] whose[13] blood[15] Pilate[16] had[17] mixed[17] with[18] their[21] sacrifices[20].
+pl: A[2] byli[1] niektórzy[3] na[4] ten[5] czas[7], oznajmując[8] mu[9] o[10] Galilejczykach[12], których[13] krew[15] zmięszał[17] Piłat[16] z[18] ofiarami[20] ich[21].
+it: In[4] quello[6] stesso[5] tempo[7] vennero[1] alcuni[3] a riferir[8]gli[9] il fatto dei[10,11] Galilei[12] il cui[13] sangue[15] Pilato[16] aveva[17] mescolato[17] coi[18,19] loro[21] sacrifici[20].
+
+@ 13:2
+en: Jesus answered[2,3] them[4], “Do[5] you[5] think[5] that[6] these[9] Galileans[8] were[15] worse[11] sinners[10] than[11] all[12] the[13] other Galileans[14], because[16] they[18] suffered[18] such[17] things[17]?
+pl: A[1] odpowiedziawszy[2] Jezus, rzekł[3] im[4]: Mniemacie[5], że[6] ci[9] Galilejczycy[8] nad[11] wszystkie[12] inne Galilejczyki[14] grzeszniejszymi[10,11] byli[15], iż[16] takowe[17] rzeczy[17] ucierpieli[18]?
+it: E[1] Gesù, rispondendo[2], disse[3] loro[4]: Pensate[5] voi[5] che[6] quei[9] Galilei[8] fossero[15] più[11] peccatori[10] di[11] tutti[12] i[13] Galilei[14] perché[16] hanno[18] sofferto[18] tali[17] cose[17]?
+
+@ 13:3
+en: I[2] tell[2] you[3], no[1], but[4] unless[5,6] you[7] repent[7], you[10] will[10] all[8] perish[10] in[9] the[9] same[9] way[9].
+pl: Nie[1], powiadam[2] wam[3]; lecz[4], jeźli[5] pokutować[7] nie[6] będziecie[7], wszyscy[8] także[9] zginiecie[10].
+it: No[1], vi[3] dico[2]; ma[4] se[5] non[6] vi[7] ravvedete[7], tutti[8] similmente[9] perirete[10].
+
+@ 13:4
+en: Or[1] those[2] eighteen[4] on[5] whom[6] the[8] tower[9] in[10] Siloam[12] fell[7] and[13] killed[14] them[15]—do[16] you[16] think[16] that[17] they[18] were[20] worse[21] offenders[19] than[21] all[22] the[23] men[24] who[25] dwell[26] in Jerusalem[27]?
+pl: Jako[1] ośmnaście[4] onych[2], na[5] które[6] upadła[7] wieża[9] w[10] Syloe[12] i[13] pobiła[14] ich[15]: mniemacie[16], żeby[17] i oni[18] winniejszymi[19,21] byli[20] nad[21] wszystkie[22] ludzie[24] mieszkające[26] w Jeruzalem[27]?
+it: O[1] quei[2] diciotto[4] sui[5] quali[6] cadde[7] la[8] torre[9] in[10] Siloe[12] e[13] li[15] uccise[14], pensate[16] voi[16] che[17] fossero[20] più[21] colpevoli[19] di[21] tutti[22] gli[23] abitanti[24,26] di Gerusalemme[27]?
+
+@ 13:5
+en: I[2] tell[2] you[3], no[1], but[4], unless[5,6] you[7] repent[7], you[10] will[10] all[8] perish[10] in[9] the[9] same[9] way[9].”
+pl: Nie[1], mówię[2] wam[3]; ale[4], jeźli[5] pokutować[7] nie[6] będziecie[7], wszyscy[8] także[9] zginiecie[10].
+it: No[1], vi[3] dico[2]; ma[4] se[5] non[6] vi[7] ravvedete[7], tutti[8] al[9] par[9] di[9] loro[9] perirete[10].
+
+@ 13:6
+en: He[1] spoke[1] this[3] parable[5]. “A certain[8] man[8] had[7] a fig[6] tree[6] planted[9] in[10] his[13] vineyard[12], and[14] he came[15] seeking[16] fruit[17] on[18] it[19] and[20] found[22] none[21].
+pl: I[2] powiedział[1] to[3] pobieństwo[5]: Miał[7] niektóry[8] figowe[6] drzewo[6] wysadzone[9] w[10] winnicy[12] swojéj[13], i[14] przyszedł[15] szukając[16] na[18] niem[19] owocu[17] i[20] nie[21] nalazł[22].
+it: Disse[1] pure[2] questa[3] parabola[5]: Un tale[8] aveva[7] un fico[6] piantato[9] nella[10,11] sua[13] vigna[12]; e[14] andò[15] a cercar[16]vi[18,19] del frutto[17], e[20] non[21] ne trovò[22].
+
+@ 13:7
+en: He[1] said[1] to[3] the[4] vine[5] dresser[5], ‘Behold[6], these three[7] years[8] I[11] have[11] come[11] looking[12] for[12] fruit[13] on[14] this[17] fig[16] tree[16], and[18] found[20] none[19]. Cut[21] it[22] down[21]! Why[23] does it waste[27] the[25] soil[26]?’
+pl: I[2] rzekł[1] do[3] sprawcy[5] winnice[5]: Oto[6] trzy[7] lata[8] są, jako[9,10] przychodzę[11] szukając[12] owocu[13] na[14] téj[17] fidze[16], a[18] nie[19] najduję[20], wytniesz[21] ją[22]: przecz[23] i[24] ziemię[26] zastępuje[27]?
+it: Disse[1] dunque[2] al[3,4] vignaiuolo[5]: Ecco[6], sono ormai tre[7] anni[8] che[9,10] vengo[11] a cercar[12] frutto[13] da[14] questo[17] fico[16], e[18] non[19] ne trovo[20]; taglia[21]lo[22]; perché[23] sta lì a rendere[27] improduttivo[27] anche[24] il[25] terreno[26]?
+
+@ 13:8
+en: He[1] answered[3,4], ‘Lord[6], leave[7] it[8] alone[7] this[10] year[12] also[9], until[13,14] I[15] dig[15] around[16] it[17] and[18] fertilize[19,20] it.
+pl: A[2] on[1] odpowiedziawszy[3], rzekł[4] mu[5]: Panie[6]! zaniechaj[7] jéj[8] i[9] na ten[10] rok[12], aż[13,14] ją[17] okopam[15,16] i[18] obłożę[19] gnojem[20];
+it: Ma[2] l’altro[1], rispondendo[3], gli[5] disse[4]: Signore[6], lascia[7]lo[8] ancora[9] quest’[10]anno[12], finch’[13,14]io[15] l’[17]abbia[15] scalzato[15,16] e[18] concimato[19,20];
+
+@ 13:9
+en: If[1] it[3] bears[3] fruit[4], fine; but[9] if[8] not[10], after[5] that[6,7], you[11] can cut[11] it[12] down[11].’”
+pl: A jeźliby[1] dała[3] owoc[4]: a[9] jeźli[8] nie[10], napotem[5,6,7] ją[12] wytniesz[11].
+it: e forse darà[3] frutto[4] in[5] avvenire[7]; se[8] no[10], lo[12] taglierai[11].

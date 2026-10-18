@@ -7,6 +7,7 @@
   --border: #e4dccf;
   --accent: #8a3b12;
   --accent-soft: #f6e3d6;
+  --on-accent: #ffffff;
   --hl: #fbe7a1;
   --hl-strong: #f2c94c;
   --shadow: 0 1px 2px rgba(40, 30, 20, .06), 0 8px 24px rgba(40, 30, 20, .08);
@@ -30,6 +31,7 @@
     --border: #3a342e;
     --accent: #f0a272;
     --accent-soft: #3d2a1f;
+    --on-accent: #1d140e;
     --hl: #5a4a17;
     --hl-strong: #8a6d12;
     --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .35);
@@ -72,7 +74,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .lang-switch button, .seg button {
   border: 0; background: transparent; padding: 5px 12px; border-radius: 999px; font-size: .85rem; font-weight: 500;
 }
-.lang-switch button[aria-pressed="true"], .seg button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+.lang-switch button[aria-pressed="true"], .seg button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); }
 
 /* ---------- layout */
 .layout {
@@ -148,7 +150,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
   padding-top: .45em;
 }
 
-.empty { font-family: var(--sans); background: var(--surface); border: 1px dashed var(--border); border-radius: 12px; padding: 18px; }
+.empty { margin-top: 16px; font-family: var(--sans); font-size: 1rem; line-height: 1.5; background: var(--surface); border: 1px dashed var(--border); border-radius: 12px; padding: 18px; }
 .empty h2 { margin: 0 0 6px; font-size: 1.05rem; }
 .day-list { display: flex; flex-wrap: wrap; gap: 8px; }
 .error { color: var(--lit-red); font-family: var(--sans); }
@@ -203,7 +205,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 
 .primary-btn {
   display: flex; justify-content: space-between; align-items: center; gap: 10px; width: 100%; margin-top: 14px;
-  border: 0; border-radius: 10px; padding: 10px 14px; background: var(--accent); color: #fff; font-weight: 600; text-align: left;
+  border: 0; border-radius: 10px; padding: 10px 14px; background: var(--accent); color: var(--on-accent); font-weight: 600; text-align: left;
 }
 .primary-btn .count { font-weight: 400; font-size: .85rem; opacity: .9; }
 .primary-btn::after { content: "›"; font-size: 1.3rem; line-height: 1; }

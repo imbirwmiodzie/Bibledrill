@@ -95,7 +95,7 @@ function renderChrome() {
   src.replaceChildren(
     el("h2", { text: t().sources }),
     el("ul", {}, ["grc", ...LANGS].map((l) => el("li", {}, el("b", { text: LANG_NAMES[l] + ": " }), t().translations[l]))),
-    el("p", { class: "muted", text: "Dodson Greek Lexicon (public domain) · Word alignments and explanations: Bibledrill (proof of concept)" }),
+    el("p", { class: "muted", text: t().credits }),
   );
 }
 
@@ -103,7 +103,7 @@ function renderChrome() {
 
 async function loadDay() {
   const day = liturgicalDay(state.date);
-  const entry = lectionary.days.find((d) => d.key === day.key);
+  const entry = lectionary.days.find((d) => d.key === day.key && d.passage);
   state.passage = entry ? await getJSON(`passages/${entry.passage}.json`) : null;
   state.entry = entry;
   state.day = day;
@@ -124,7 +124,7 @@ function renderDayCard() {
   card.dataset.color = day.color;
   const cycle = `${t().year} ${day.cycle.sunday} · ${t().weekdayCycle} ${day.cycle.weekday}`;
   const season = SEASONS[day.season]?.[state.lang] ?? "";
-  card.replaceChildren(
+  card.replaceChildren(...[
     el("div", { class: "day-meta" },
       el("span", { class: "color-dot", title: day.color }),
       el("span", { text: season }),
@@ -134,7 +134,8 @@ function renderDayCard() {
       el("span", { class: "label", text: t().gospel + ": " }),
       el("b", { text: formatRef(passage.book, passage.start[0], passage.start[1], passage.end[0], passage.end[1], state.lang) }),
       el("span", { class: "muted", text: " — " + bookName(passage.book, state.lang) })) : null,
-  );
+  ].filter(Boolean));
+  $("#toolbar").hidden = !passage;
 }
 
 function renderNoGospel() {

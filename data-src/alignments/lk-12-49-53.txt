@@ -1,0 +1,27 @@
+# Thursday of the 29th week in Ordinary Time. Format: see mt-22-15-21.txt
+book: Lk
+
+@ 12:49
+en: “I[2] came[2] to[3] throw[3] fire[1] on[4] the[5] earth[6]. I[9] wish[8,9] it[12] were[12] already[11] kindled[12].
+pl: Przyszedłem[2] puścić[3] ogień[1] na[4] ziemię[6], a[7] czegóż[8] chcę[9], jedno aby[10] był[12] zapalon[12]?
+it: Io[2] son[2] venuto[2] a gettare[3] un fuoco[1] sulla[4,5] terra[6]; e[7] che[8] mi resta a desiderare[9], se[10] già[11] è[12] acceso[12]?
+
+@ 12:50
+en: But[2] I[3] have[3] a baptism[1] to[4] be[4] baptized[4] with, and[5] how[6] distressed[7] I[7] am[7] until[8,9] it[10] is[10] accomplished[10]!
+pl: Lecz[2] mam[3] być[4] chrztem[1] ochrzczon[4]: a[5] jako[6]m[7] jest[7] ściśnion[7], aż[8,9] się[10] wykona[10]!
+it: Ma[2] v’è un battesimo[1] del quale ho[3] da esser[4] battezzato[4]; e[5] come[6] sono[7] angustiato[7] finché[8,9] non sia[10] compiuto[10]!
+
+@ 12:51
+en: Do[1] you[1] think[1] that[2] I[4] have[4] come[4] to[5] give[5] peace[3] on[6] the[7] earth[8]? I[10] tell[10] you[11], no[9], but[12] rather[13] division[14].
+pl: Mniemacie[1], aby[2]ch[4] przyszedł[4] dawać[5] pokój[3] na[6] ziemię[8]? Nie[9], mówię[10] wam[11], ale[12] rozłączenie[14].
+it: Pensate[1] voi[1] ch’[2]io[4] sia[4] venuto[4] a metter[5] pace[3] in[6] terra[8]? No[9], vi[11] dico[10]; ma[12] piuttosto[13] divisione[14];
+
+@ 12:52
+en: For[2] from[3] now[5] on, there[1] will[1] be[1] five[6] in[7] one[8] house[9] divided[10], three[11] against[12] two[13], and[14] two[15] against[16] three[17].
+pl: Albowiem[2] odtąd[3,5] będzie[1] ich pięć[6] w[7] jednym[8] domu[9] rozłączonych[10]: trzéj[11] przeciwko[12] dwiema[13], a[14] dwaj[15] przeciwko[16] trzem[17].
+it: perché[2], da[3] ora[5] innanzi, se vi sono[1] cinque[6] persone in[7] una[8] casa[9], saranno[10] divise[10] tre[11] contro[12] due[13], e[14] due[15] contro[16] tre[17];
+
+@ 12:53
+en: They[1] will[1] be[1] divided[1], father[2] against[3] son[4], and[5] son[6] against[7] father[8]; mother[9] against[10] daughter[11], and[12] daughter[13] against[14] her[15] mother[16]; mother-in-law[17] against[18] her[21] daughter-in-law[20], and[22] daughter-in-law[23] against[24] her[25] mother-in-law[26].”
+pl: Oddzielą[1] się[1] ojciec[2] przeciw[3] synowi[4], a[5] syn[6] przeciw[7] ojcu[8] swemu, matka[9] przeciw[10] córce[11], a[12] córka[13] przeciw[14] matce[16], świekra[17] przeciw[18] niewiastce[20] swéj[21], a[22] niewiastka[23] przeciw[24] świekrze[26] swojéj.
+it: saranno[1] divisi[1] il padre[2] contro[3] il figliuolo[4], e[5] il figliuolo[6] contro[7] li padre[8]; la madre[9] contro[10] la figliuola[11], e[12] la figliuola[13] contro[14] la[15] madre[16]; la suocera[17] contro[18] la[19] nuora[20], e[22] la nuora[23] contro[24] la[25] suocera[26].

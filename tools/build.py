@@ -6,7 +6,7 @@ Inputs
 Output
   web/data/           JSON files loaded by the app
 
-Run:  python3 tools/build.py
+Run:  python3 tools/build.py [--allow-missing]
 """
 import glob
 from html.parser import HTMLParser
@@ -178,13 +178,26 @@ def load_wujek():
 # ---------------------------------------------------------------- lexicon
 
 def load_dodson():
-    """{accentless lemma: (strong, brief gloss)}"""
+    """Lookup function: lemma -> (strong, brief English gloss) or (None, None)."""
     xml = open(os.path.join(SRC, "dodson", "dodson.xml"), encoding="utf-8").read()
-    out = {}
+    exact, loose = {}, {}
     for m in re.finditer(r'<entry n="([^|"]+)\| (\d+)">.*?<def role="brief">(.*?)</def>', xml, re.S):
-        key = strip_accents(m[1].strip()).lower()
-        out.setdefault(key, ("G" + str(int(m[2])), re.sub(r"\s+", " ", m[3]).strip()))
-    return out
+        word = unicodedata.normalize("NFC", m[1].strip())
+        value = ("G" + str(int(m[2])), re.sub(r"\s+", " ", m[3]).strip())
+        exact.setdefault(word, value)
+        loose.setdefault(strip_accents(word).lower(), value)
+
+    def lookup(lemma):
+        # MorphGNT writes optional letters in parentheses: οὕτω(ς), ἔξεστι(ν)
+        variants = [lemma, re.sub(r"\((\w+)\)", r"\1", lemma), re.sub(r"\(\w+\)", "", lemma)]
+        for v in variants:
+            if v in exact:
+                return exact[v]
+        for v in variants:
+            if strip_accents(v).lower() in loose:
+                return loose[strip_accents(v).lower()]
+        return None, None
+    return lookup
 
 
 def load_lexicon():
@@ -375,7 +388,10 @@ def main():
 
     for entry in lectionary["days"]:
         if entry.get("passage") and entry["passage"] not in passages:
-            fail(f"lectionary.json: unknown passage {entry['passage']}")
+            if "--allow-missing" not in sys.argv:
+                fail(f"lectionary.json: unknown passage {entry['passage']}")
+            print(f"warning: lectionary passage {entry['passage']} not aligned yet", file=sys.stderr)
+            entry["passage"] = None
 
     missing = sorted(l for l in used_lemmas if l not in lexicon)
     if missing:
@@ -384,7 +400,7 @@ def main():
     lemmas_out = {}
     for lemma in sorted(used_lemmas):
         lid = lemma_ids[lemma]
-        strong, brief = dodson.get(strip_accents(lemma).lower(), (None, None))
+        strong, brief = dodson(lemma)
         entry = {"lemma": lemma, "tr": transliterate(lemma), "strong": strong, "dodson": brief,
                  "count": len(lemma_refs[lemma])}
         if lemma in lexicon:

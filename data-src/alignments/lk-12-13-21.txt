@@ -1,0 +1,47 @@
+# Monday of the 29th week in Ordinary Time. Format: see mt-22-15-21.txt
+book: Lk
+
+@ 12:13
+en: One[3] of[4] the[5] multitude[6] said[1] to[7] him[7], “Teacher[8], tell[9] my[12] brother[11] to[13] divide[13] the[16] inheritance[17] with[14] me[15].”
+pl: I[2] rzekł[1] mu[7] niektóry[3] z[4] rzesze[6]: Nauczycielu[8]! rzecz[9] bratu[11] memu[12], aby[13] się[13] ze[14] mną[15] podzielił[13] dziedzictwem[17].
+it: Or[2] uno[3] della[4,5] folla[6] gli[7] disse[1]: Maestro[8], di’[9] a[10] mio[12] fratello[11] che[13] divida[13] con[14] me[15] l’[16]eredità[17].
+
+@ 12:14
+en: But[2] he[1] said[3] to[4] him[4], “Man[5], who[6] made[8] me[7] a judge[9] or[10] an arbitrator[11] over[12] you[13]?”
+pl: A[2] on[1] mu[4] rzekł[3]: Człowiecze[5]! któż[6] mię[7] postanowił[8] sędzią[9] albo[10] dzielnikiem[11] nad[12] wami[13]?
+it: Ma[2] Gesù[1] gli[4] rispose[3]: O uomo[5], chi[6] mi[7] ha[8] costituito[8] su[12] voi[13] giudice[9] o[10] spartitore[11]? Poi[15.2] disse[15.1] loro[15.3,15.4]:
+
+@ 12:15
+en: He[1] said[1] to[3] them[4], “Beware[5]! Keep[7] yourselves[7] from[8] covetousness[10], for[11] a man’s[16,19] life[18] doesn’t[12] consist[20] of[13] the[14] abundance[15] of[21] the[22] things[22] which he[24] possesses[23].”
+pl: I[2] rzekł[1] do[3] nich[4]: Baczcież[5] a[6] strzeżcie[7] się[7] wszelakiego[9] łakomstwa[10]: gdyż[11] nie[12] w[13] dostatku[15] czyim[16] żywot[18] jego[19] jest[20], z[21] tego[22] co[23] ma[23,24].
+it: Badate[5] e[6] guardatevi[7] da[8] ogni[9] avarizia[10]; perché[11] non[12] è[20] dall’[13,14]abbondanza[15] de’[22] beni[23] che[23] uno[16] possiede[23,24], ch’egli ha la sua[19] vita[18].
+
+@ 12:16
+en: He[1] spoke[1] a parable[3] to[4] them[5], saying[6], “The[11] ground[12] of a certain[8] rich[9] man[7] produced[10] abundantly[10].
+pl: I[2] powiedział[1] im[4,5] podobieństwo[3], mówiąc[6]: Niektórego[8] bogatego[9] człowieka[7] rola[12] obfite[10] pożytki[10] zrodziła[10].
+it: E[2] disse[1] loro[4,5] questa parabola[3]: La[11] campagna[12] d’un certo[8] uomo[7] ricco[9] fruttò[10] copiosamente[10];
+
+@ 12:17
+en: He[2] reasoned[2] within[3] himself[4], saying[5], ‘What[6] will[7] I[7] do[7], because[8] I[10] don’t[9] have[10] room[11] to[12] store[12] my[15] crops[14]?’
+pl: I[1] rozmyślał[2] sam w[3] sobie[4], mówiąc[5]: Cóż[6] uczynię[7], gdyż[8] nie[9] mam[10] dokąd[11]bych zgromadzić[12] miał urodzaje[14] moje[15]?
+it: ed[1] egli[2] ragionava[2] così fra[3] sé[4] medesimo[4]: Che[6] farò[7], poiché[8] non[9] ho[10] dove[11] riporre[12] i[13] miei[15] raccolti[14]? E[18.1] disse[18.2]:
+
+@ 12:18
+en: He[2] said[2], ‘This[3] is what I[4] will[4] do[4]. I[5] will[5] pull[5] down[5] my[6] barns[8], build[11] bigger[10] ones, and[12] there[14] I[13] will[13] store[13] all[15] my[21] grain[17] and[18] my[21] goods[20].
+pl: I[1] rzekł[2]: To[3] uczynię[4]: Skażę[5] gumna[8] moje[6], a[9] większe[10] pobuduję[11] a[12] tam[14] zgromadzę[13] wszystko[15], co[17] mi się urodziło[17] i[18] dobra[20] moje[21].
+it: Questo[3] farò[4]: demolirò[5] i[7] miei[6] granai[8] e[9] ne fabbricherò[11] dei più[10] vasti[10], e[12] vi[14] raccoglierò[13] tutto[15] il[16] mio[21] grano[17] e[18] i[19] miei[21] beni[20],
+
+@ 12:19
+en: I[2] will[2] tell[2] my[5] soul[4], “Soul[6], you[7] have[7] many[8] goods[9] laid[10] up[10] for[11] many[13] years[12]. Take[14] your[14] ease[14], eat[15], drink[16], and be[17] merry[17].”’
+pl: I[1] rzekę[2] duszy[4] swojéj[5]: Duszo[6]! masz[7] wiele[8] dóbr[9] zgotowanych[10] na[11] wiele[13] lat[12]; odpoczywaj[14], jedz[15], pij[16], używaj[17].
+it: e[1] dirò[2] all’[3]anima[4] mia[5]: Anima[6], tu[7] hai[7] molti[8] beni[9] riposti[10] per[11] molti[13] anni[12]; riposati[14], mangia[15], bevi[16], godi[17].
+
+@ 12:20
+en: “But[2] God[5] said[1] to[3] him[3], ‘You[6] foolish[6] one[6], tonight[7,8,9] your[12] soul[11] is[13] required[13] of[14] you[15]. The[16] things[16] which[16] you[18] have[18] prepared[18]—whose[19] will[20] they[20] be[20]?’
+pl: I[2] rzekł[1] mu[3] Bóg[5]: Szalony[6]! téj[7] nocy[9] dusze[11] twéj[12] upominają[13] się[13] u[14] ciebie[15]; a[17] co[16]ś[18] nagotował[18], czyjeż[19] będzie[20]?
+it: Ma[2] Dio[5] gli[3] disse[1]: Stolto[6], questa[7] notte[9] stessa l’[10]anima[11] tua[12] ti[15] sarà[13] ridomandata[13]; e[17] quel[16] che[16] hai[18] preparato[18], di[19] chi[19] sarà[20]?
+
+@ 12:21
+en: So[1] is he[2] who[2] lays[3] up[3] treasure[3] for[4] himself[4], and[5] is not[6] rich[9] toward[7] God[8].”
+pl: Tak[1]ci jest, który[2] sobie[4] skarbi[3], a[5] nie[6] jest ku[7] Bogu[8] bogatym[9].
+it: Così[1] è di chi[2] tesoreggia[3] per[4] sé[4], e[5] non[6] è ricco[9] in vista di[7] Dio[8].

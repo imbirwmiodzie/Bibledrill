@@ -1,0 +1,32 @@
+# Friday of the 29th week in Ordinary Time. Format: see mt-22-15-21.txt
+book: Lk
+
+@ 12:54
+en: He[1] said[1] to[4] the[4] multitudes[5] also[3], “When[6] you[7] see[7] a cloud[8] rising[9] from[10] the west[11], immediately[12] you[13] say[13], ‘A shower[15] is[16] coming[16],’ and[17] so[19] it[18] happens[18].
+pl: Mówił[1] téż[3] i[3] do[4] rzeszéj[5]: Gdy[6] widzicie[7] obłok[8] wschodzący[9] od[10] zachodu[11], wnet[12] mówicie[13]: Będzie[16] deszcz[15]; i[17] tak[19] bywa[18].
+it: Diceva[1] poi[2] ancora[3] alle[4] turbe[5]: Quando[6] vedete[7] una nuvola[8] venir[9] su[9] da[10] ponente[11], voi dite[13] subito[12]: Viene[16] la pioggia[15]; e[17] così[19] succede[18].
+
+@ 12:55
+en: When[2] a south[3] wind[3] blows[4], you[5] say[5], ‘There[8] will[8] be[8] a scorching[7] heat[7],’ and[9] it[10] happens[10].
+pl: A[1] gdy[2] wiatr[3] wiejący[4] od południa[3], powiadacie[5]: Iż[6] będzie[8] gorąco[7]; i[9] bywa[10].
+it: E[1] quando[2] sentite soffiar[4] lo scirocco[3], dite[5]: Farà[8] caldo[7], e[9] avviene[10] così.
+
+@ 12:56
+en: You[1] hypocrites[1]! You[9] know[9] how[10] to[10] interpret[10] the[2] appearance[3] of[4] the earth[5] and[6] the[7] sky[8], but[12] how[15] is it that you[18] don’t[16] interpret[17,18] this[14] time[13]?
+pl: Obłudnicy[1]! postawy[3] nieba[8] i[6] ziemie[5] doświadczać[10] umiecie[9], a[12] tego[14] to czasu[13] jako[15] nie[16] doświadczacie[17,18]?
+it: Ipocriti[1], ben sapete[9] discernere[10] l’[2]aspetto[3] della[4] terra[5] e[6] del[7] cielo[8]; e[12] come[15] mai non[16] sapete[17] discernere[18] questo[14] tempo[13]?
+
+@ 12:57
+en: “Why[1] don’t[6] you[7] judge[7] for[4] yourselves[5] what[8] is right[9]?
+pl: Przecz[1]że i[3] sami[5] z[4] siebie[5] nie[6] sądzicie[7], co[8] jest sprawiedliwego[9]?
+it: E[2] perché[1] non[6] giudicate[7] da[4] voi[5] stessi[5] ciò[8] che[8] è giusto[9]?
+
+@ 12:58
+en: For[2] when[1] you[3] are[3] going[3] with[4] your[7] adversary[6] before[8] the magistrate[9], try[13] diligently[14] on[10] the[11] way[12] to[15] be[15] released[15] from[16] him[17], lest[18] perhaps[18] he[19] drag[19] you[20] to[21] the[22] judge[23], and[24] the[25] judge[26] deliver[28] you[27] to[29] the[29] officer[30], and[31] the[32] officer[33] throw[35] you[34] into[36] prison[37].
+pl: Gdy[1] tedy[2] idziesz[3] z[4] twym[7] przeciwnikiem[6] do[8] przełożonego[9], staraj[13,14]że się w[10] drodze[12], jako byś był wolen[15] od[16] niego[17], by[18] cię[20] snadź[18] nie pociągnął[19] przed[21] sędziego[23], a[24] sędzia[26]by cię[27] podał[28] wycięgaczowi[29,30], a[31] wycięgacz[33]by cię[34] wrzucił[35] do[36] więzienia[37].
+it: Quando[1] vai[3] col[4,5] tuo[7] avversario[6] davanti[8] al magistrato[9], fa’[13] di tutto[14], mentre sei per[10] via[12], per liberar[15]ti da[16] lui[17]; che talora[18] e’ non ti[20] tragga[19] dinanzi[21] al[22] giudice[23], e[24] il[25] giudice[26] ti[27] dia[28] in man dell’esecutore[30] giudiziario[30], e[31] l’[32]esecutore[33] ti[34] cacci[35] in[36] prigione[37].
+
+@ 12:59
+en: I[1] tell[1] you[2], you[5] will[5] by[3,4] no[3,4] means[3,4] get[5] out[5] of[6] there[6] until[7] you[12] have[12] paid[12] the[9] very[8] last[10] penny[11].”
+pl: Powiadam[1] ci[2]: Nie[3,4] wynidziesz[5] ztamtąd[6], aż[7] i[8] ostatni[10] drobny[11] pieniądz[11] oddasz[12].
+it: Io[1] ti[2] dico[1] che non[3,4] uscirai[5] di[6] là[6], finché[7] tu non abbia[12] pagato[12] fino[8] all’[9]ultimo[10] spicciolo[11].

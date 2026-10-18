@@ -1,0 +1,52 @@
+# Wednesday of the 29th week in Ordinary Time. Format: see mt-22-15-21.txt
+book: Lk
+
+@ 12:39
+en: But[2] know[3] this[1], that[4] if[5] the[7] master[8] of[8] the house[8] had[6] known[6] in what[9] hour[10] the[11] thief[12] was[13] coming[13], he would have watched and not[14] allowed[16] his[20] house[19] to[17] be[17] broken[17] into[17].
+pl: A[2] to[1] wiedzcie[3], iż[4], gdyby[5,15] wiedział[6] gospodarz[8], któréj[9] godziny[10] złodziéj[12] ma[13] przyjść[13], czułby wżdy, a nie[14] dopuściłby[15,16] podkopać[17] domu[19] swego[20].
+it: Or[2] sappiate[3] questo[1], che[4] se[5] il[7] padron[8] di casa[8] sapesse[6] a che[9] ora[10] verrà[13] il[11] ladro[12], veglierebbe e non[14] si lascerebbe[16] sconficcar[17] la[18] casa[19].
+
+@ 12:40
+en: Therefore be[3] ready[4] also[1], for[5] the[10] Son[11] of[12] Man[13] is[14] coming[14] in[6] an hour[7] that[6] you[9] don’t[8] expect[9] him.”
+pl: I[1] wy[2] gotowi[4] bądźcie[3]; bo[5] godziny[7], któréj[6] się nie[8] domniemacie[9], Syn[11] człowieczy[12,13] przyjdzie[14].
+it: Anche[1] voi[2] siate[3] pronti[4], perché[5] nell’[6]ora[7] che[6] non[8] pensate[9], il[10] Figliuol[11] dell’[12]uomo[13] verrà[14].
+
+@ 12:41
+en: Peter[4] said[1] to him, “Lord[5], are[11] you[11] telling[11] this[10] parable[9] to[6] us[7], or[12] to[14] everybody[15]?”
+pl: I[2] rzekł[1] mu Piotr[4]: Panie[5], do[6] nasże[7] mówisz[11] to[10] podobieństwo[9], czyli[12] i[13] do[14] wszystkich[15]?
+it: E[2] Pietro[4] disse[1]: Signore[5], questa[10] parabola[9] la dici[11] tu[11] per[6] noi[7], o[12] anche[13] per[14] tutti[15]?
+
+@ 12:42
+en: The[3] Lord[4] said[2], “Who[5] then[6] is[7] the[8] faithful[9] and wise[12] steward[10], whom[13] his lord[16] will[14] set[14] over[17] his[20] household[19], to[22] give[22] them their portion[26] of food[26] at[23] the right times[24]?
+pl: A[1] Pan[4] rzekł[2]: Który[5] mniemasz[6] jest[7] wierny[9] a roztropny[12] szafarz[10], którego[13] Pan[16] postanowił[14] nad[17] czeladzią[19] swoją[20], aby[22] im na[23] czas[24] dał[22] miarę[26] pszenice[26]?
+it: E[1] il[3] Signore[4] rispose[2]: E qual[5] è[7] mai[6] l’[8]economo[10] fedele[9] e avveduto[12] che[13] il[15] padrone[16] costituirà[14] sui[17,18] suoi[20] domestici[19] per[21] dar[22] loro a[23] suo tempo[24] la[25] loro misura[26] di viveri[26]?
+
+@ 12:43
+en: Blessed[1] is that[4] servant[3] whom[5] his[9] lord[8] will[10] find[10] doing[11] so[12] when[6] he[6] comes[6].
+pl: Błogosławiony[1] on[4] sługa[3], którego[5] pan[8] przyszedłszy[6], znajdzie[10] tak[12] czyniącego[11].
+it: Beato[1] quel[4] servitore[3] che[5] il[7] padrone[8], al suo arrivo[6], troverà[10] facendo[11] così[12].
+
+@ 12:44
+en: Truly[1] I[2] tell[2] you[3] that[4] he[10] will[10] set[10] him[11] over[5] all[6] that[7] he[9] has[8].
+pl: Prawdziwie[1] mówię[2] wam[3]: Nad[5] wszystkiem[6], co[7] ma[8,9], postanowi[10] go[11].
+it: In[1] verità[1] io[2] vi[3] dico[2] che[4] lo[11] costituirà[10] su[5] tutti[6] i[7] suoi[9] beni[8].
+
+@ 12:45
+en: But[2] if[1] that[6] servant[5] says[3] in[7] his[10] heart[9], ‘My[14] lord[13] delays[11] his coming[15],’ and[16] begins[17] to[18] beat[18] the[19] menservants[20] and[21] the[22] maidservants[23], and[25] to[24] eat[24] and[26] drink[27] and[28] to[29] be[29] drunken[29],
+pl: A[2] jeźliby[1] rzekł[3] on[6] sługa[5] w[7] sercu[9] swojem[10]: Omieszkawa[11] przyjść[15] pan[13] mój[14], i[16] począłby[17] bić[18] sługi[20] i[21] służebnice[23] i[25] jeść[24] i[26] pić[27] i[28] upijać[29] się[29]:
+it: Ma[2] se[1] quel[6] servitore[5] dice[3] in[7] cuor[9] suo[10]: Il[12] mio[14] padrone[13] mette[11] indugio[11] a venire[15]; e[16] comincia[17] a battere[18] i[19] servi[20] e[21] le[22] serve[23], e[25] a mangiare[24] e[26] bere[27] ed[28] ubriacarsi[29],
+
+@ 12:46
+en: then the[2] lord[3] of[4] that[6] servant[5] will[1] come[1] in[7] a day[8] when[9] he[11] isn’t[10] expecting[11] him and[12] in[13] an hour[14] that[15] he[17] doesn’t[16] know[17], and[18] will[19] cut[19] him[20] in[19] two[19], and[21] place[28] his[24] portion[23] with[25] the[26] unfaithful[27].
+pl: Przyjdzie[1] pan[3] sługi[5] onego[6] w[7] dzień[8], w[9] który[9] się[11] nie[10] spodziewa[11], i[12] w[13] godzinę[14], któréj[15] nie[16] wie[17]: i[18] oddzieli[19] go[20], a[21] część[23] jego[24] z[25] niewiernymi[27] położy[28].
+it: il[2] padrone[3] di[4] quel[6] servitore[5] verrà[1] nel[7] giorno[8] che[9] non[10] se l’aspetta[11] e[12] nell’[13]ora[14] che[15] non[16] sa[17]; e[18] lo[20] farà[19] lacerare[19] a colpi di flagello, e[21] gli[24] assegnerà[28] la[22] sorte[23] degl’[26]infedeli[27].
+
+@ 12:47
+en: That[1] servant[4] who[5] knew[6] his[11] lord’s[10] will[8], and[12] didn’t[13] prepare[14] nor[15] do[16] what[17] he[20] wanted[19], will[21] be[21] beaten[21] with many[22] stripes[22],
+pl: A[2] on[1] sługa[4], który[5] poznał[6] wolą[8] pana[10] swego[11], a[12] nie[13] nagotował[14], ani[15] uczynił[16] wedle[17] woli[19] jego[20], wielce[22] będzie[21] karan[21].
+it: Or[2] quel[1] servitore[4] che[5] ha[6] conosciuto[6] la[7] volontà[8] del[9] suo[11] padrone[10] e[12] non[13] ha[14] preparato[14] né[15] fatto[16] nulla per[17] compiere la[18] volontà[19] di lui[20], sarà[21] battuto[21] di molti[22] colpi[22];
+
+@ 12:48
+en: but[2] he[1] who[1] didn’t[3] know[4], and[6] did[5] things worthy[7] of stripes[8], will[9] be[9] beaten[9] with few[10] stripes[10]. To[11] whomever[11,13] much[15] is[14] given[14], of[18] him[19] will[17] much[16] be[17] required[17]; and[20] to[21] whom[21] much[23] was[22] entrusted[22], of[26] him[26] more[24] will[25] be[25] asked[25].
+pl: Ale[2] który[1] nie[3] wiedział[4] a[6] uczynił[5] co godnego[7] karania[8], mało[10] będzie[9] karan[9], a[12] od[18] każdego[11], któremu[13] wiele[15] dano[14], wiele[16] żądać[17] będą[17], a[20] któremu[21] wiele[23] zlecono[22], więcéj[24] będą[25] chcieć[25] od[26] niego[26].
+it: ma[2] colui[1] che[1] non[3] l’ha[4] conosciuta[4] e[6] ha[5] fatto[5] cose degne[7] di castigo[8], sarà[9] battuto[9] di pochi[10] colpi[10]. E[12] a[13] chi[13] molto[15] è[14] stato[14] dato[14], molto[16] sarà[17] ridomandato[17]; e[20] a[21] chi[21] molto[23] è[22] stato[22] affidato[22], tanto[24] più[24] si[25] richiederà[25].

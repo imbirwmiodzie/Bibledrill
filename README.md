@@ -7,11 +7,39 @@ calendar in **English, Polish and Italian**, with every word linked to the
 You read in one language. You tap any word and see:
 
 - the Greek word it translates, with its dictionary form, grammar and meaning,
-- the matching words in the other two languages,
-- every other place where that Greek word appears.
+- a short explanation of the word **in English, Polish and Italian**,
+- the matching words in the other two translations,
+- every other place in the New Testament where that Greek word appears.
 
 This lets you check how each translation renders the original and how the same
 word is used elsewhere.
+
+---
+
+## Proof of concept: what works today
+
+| | |
+|---|---|
+| **Platform** | Static web app, mobile-first (`web/`), no server and no build step |
+| **Days covered** | 18–25 October 2026: the 29th and 30th Sundays in Ordinary Time (Year A) and the weekdays in between (8 Gospels, 57 verses) |
+| **Calendar** | Computed on the device for any date: seasons, Sunday cycle A/B/C, weekday cycle I/II, main solemnities and feasts. Other dates show the liturgical day and say that their text is not in the proof of concept yet |
+| **Word links** | Every word of the 8 Gospels, linked by hand to the Greek in all three translations |
+| **Explanations** | All 295 Greek dictionary forms in these Gospels, with a short meaning and a one-sentence explanation in EN, PL and IT. Latin, Hebrew and Aramaic loanwords are marked |
+| **Other occurrences** | The whole Greek New Testament (MorphGNT), with the verse text in the reading language |
+
+### Run it
+
+```sh
+npm start            # serves web/ at http://localhost:8000 (python3 -m http.server)
+npm test             # calendar tests (node --test)
+```
+
+Rebuilding the data needs the source texts. They are downloaded into `sources/`,
+which git ignores; see [Data pipeline](#data-pipeline).
+
+```sh
+python3 tools/build.py     # sources/ + data-src/ -> web/data/
+```
 
 ---
 
@@ -44,177 +72,178 @@ Aramaic words, written in Greek letters. Examples:
 | Jn 20:16 | ραββουνι (*rabbouni*) | "My teacher" |
 | Mk 7:11 | κορβαν (*korban*) | "Offering to God" |
 
-The app will mark these words as Aramaic and explain them in the word popup.
+The word panel marks such words by origin: Aramaic (e.g. Φαρισαῖος, "Pharisee"),
+Hebrew (ἀμήν, Ἰησοῦς) and Latin (κῆνσος from *census*, δηνάριον from *denarius*,
+Καῖσαρ).
 
 **Optional later:** the *Peshitta* (an early Syriac/Aramaic translation, 2nd–5th
 century) could be added as an extra layer for comparison. It is a translation,
 not the original, and should be labeled that way.
 
-## 3. Core features
+## 3. Features
 
 ### 3.1 Gospel of the day
-- Show the Gospel for today and for any chosen date.
-- Follow the General Roman Calendar, the Sunday cycle (A/B/C), the weekday
-  cycle (I/II), feasts, solemnities and memorials.
-- **National calendars differ.** Poland, Italy and English-speaking countries
-  sometimes read a **different Gospel on the same day** (proper feasts,
-  Epiphany and Ascension moved to Sunday, etc.). The user picks a calendar
-  region. The reading language does not decide the region.
-- Show the liturgical day name and color, e.g. *29th Sunday in Ordinary Time,
-  Year A — green*.
+- Shows the Gospel for today and for any chosen date (‹ › buttons, date picker,
+  or a link such as `#2026-10-18`).
+- Follows the General Roman Calendar: seasons, Sunday cycle (A/B/C), weekday
+  cycle (I/II), solemnities and feasts, with the usual transfers (St Joseph,
+  Annunciation, Immaculate Conception).
+- Shows the liturgical day name in the reading language and its color.
 
 ### 3.2 Reading in three languages
-- The reading language can be English, Polish or Italian.
-- Optional parallel view: the three translations and the Greek side by side,
-  verse by verse.
-- Optional interlinear view: Greek with the chosen language under each word.
+- The reading language (EN / PL / IT) also sets the interface language.
+- **Reading** view: one translation, optionally with the Greek under each verse.
+- **Parallel** view: the reading language, the Greek and the other two
+  translations, verse by verse.
 
-### 3.3 Tap a word → translation and original
-When the user taps a word in the text, a panel opens with:
+### 3.3 Tap a word → original and translations
+The panel shows:
+- the **Greek word** as it appears in the text, with transliteration;
+- its **dictionary form**, **Strong's number** and **grammar** (described in
+  the reading language);
+- its **meaning and explanation in all three languages**, reading language first;
+- **the same Greek word in the other two translations** for this verse.
 
-- **Greek word** as it appears in the text (e.g. `εἰκὼν`) and its
-  **dictionary form / lemma** (e.g. `εἰκών`).
-- **Transliteration** and pronunciation hint (*eikōn*).
-- **Grammar** (e.g. noun, nominative, singular, feminine).
-- **Short meaning** (gloss) in the reading language.
-- **The same Greek word in the other two translations** for this verse
-  (e.g. EN *image* · PL *obraz* · IT *immagine*).
-- **Strong's number** (e.g. G1504) so you can look it up in other tools.
+All words linked to the same Greek word are highlighted in every visible text.
+Words with no Greek behind them (added by the translator, or coming from the
+Latin Vulgate in the Wujek translation) are underlined with dots, and tapping
+them says so.
 
-Translations do not map one word to one word:
-- One Greek word can become several words ("ἀπεκρίθη" → "he answered").
-- Several Greek words can become one word.
-- Some Greek words are not translated at all (articles, particles such as δέ).
-- Some translated words have no Greek word behind them, especially the
-  lectionary opening ("At that time Jesus said to his disciples…").
-
-The UI must handle all four cases: highlight every linked word, and say clearly
-when a word has no Greek counterpart.
-
-### 3.4 Other uses of the word (concordance)
-From the word panel, the user can open **"Other occurrences"**:
-- Every verse where the same Greek lemma appears. Start with the Gospels and
-  extend to the whole New Testament.
-- Each result shows the verse in the reading language, with the matching word
-  highlighted, plus the Greek.
-- Results can be grouped by book and by how the word was translated. This
-  shows, for example, that one Greek word is sometimes "love" and sometimes
-  "charity".
-- Total count (e.g. "εἰκών — 23 times in the NT").
+### 3.4 Other occurrences (concordance)
+- Every verse in the New Testament where the same Greek dictionary form appears,
+  grouped by book, with the current book first.
+- Each result shows the Greek verse with the word highlighted and the verse in
+  the reading language.
+- A summary of **how the aligned passages translate the word** in each language
+  (e.g. ψυχή: *soul* ×4, *dusze* ×2, *anima* ×4).
 
 **Example, Gospel for 18 October 2026 (Mt 22:15–21, "Render to Caesar"):**
 Jesus asks *"Whose image (εἰκών) is this?"*. Tapping *image* shows that the same
 word is used in *Col 1:15* ("He is the **image** of the invisible God"),
 *2 Cor 4:4*, *Rom 8:29* and *1 Cor 15:49*. The coin bears Caesar's image, and
-the human person bears God's. This is the kind of link the app should make easy
-to find.
+the human person bears God's.
 
-## 4. Data needed
+## 4. Data
 
-| Data | Purpose | Candidate sources (licenses must be verified) |
-|------|---------|-----------------------------------------------|
-| Liturgical calendar | Which day / feast / cycle | Computed in code; e.g. [romcal](https://github.com/romcal/romcal) (MIT, includes national calendars) |
-| Lectionary table | Which Gospel passage on which liturgical day | *Ordo Lectionum Missae* reference list (references only, no text) |
-| Greek text + grammar | The original, word by word | SBLGNT + MorphGNT, Nestle 1904 (public domain), STEPBible TAGNT (CC BY 4.0) |
-| Greek dictionary | Meanings, glosses | Strong's, Thayer, Abbott-Smith, Dodson (public domain) |
-| English text | Reading text | Liturgical: NABRE (US), ESV-CE / Jerusalem Bible (UK etc.) — **copyrighted**. Free: Douay-Rheims, World English Bible |
-| Polish text | Reading text | Liturgical: Biblia Tysiąclecia (Pallottinum) — **copyrighted**. Free: Biblia Wujka (1599) |
-| Italian text | Reading text | Liturgical: CEI 2008 — **copyrighted**. Free: Martini (Catholic, 18th c.) |
-| Word alignment | Links between each translated word and the Greek | Partly available for English (Strong's-tagged texts); **must be built for Polish and Italian** |
+### 4.1 Sources used in the proof of concept
 
-### 4.1 Licensing decision (open)
-The texts read at Mass (NABRE, Biblia Tysiąclecia, CEI 2008) are copyrighted.
-There are two options:
-1. **Start with public-domain translations** (Douay-Rheims / WEB, Wujek,
-   Martini). We can build and publish right away, but the wording will differ
-   from what is heard in church.
-2. **Ask the publishers** (USCCB, Pallottinum, CEI) for permission to use the
-   liturgical texts. This matches what is read at Mass, but it is slow and may
-   cost money.
+All texts are public domain or openly licensed.
 
-Proposal: build with option 1, design the data so a translation can be swapped
-in later, and pursue option 2 in parallel.
+| Data | Source | License |
+|------|--------|---------|
+| Greek text, grammar, dictionary forms | [MorphGNT SBLGNT](https://github.com/morphgnt/sblgnt) | SBLGNT EULA (text, with attribution); CC BY-SA 3.0 (tagging) |
+| Strong's numbers, short English glosses | [Dodson Greek Lexicon](https://github.com/biblicalhumanities/Dodson-Greek-Lexicon) | Public domain |
+| English | World English Bible, Catholic edition ([eBible.org](https://ebible.org/)) | Public domain |
+| Polish | Biblia Jakuba Wujka, 1923 edition ([Wikisource](https://pl.wikisource.org/wiki/Biblia_Wujka_(1923))) | Public domain |
+| Italian | Riveduta 1927 ([eBible.org](https://ebible.org/)) | Public domain |
+| Word alignments, trilingual explanations, lectionary table | Hand-made for this project (`data-src/`) | — |
 
-### 4.2 Word alignment (the hardest part)
-The Greek text is the **pivot**. Each word in each translation is linked to one
-or more Greek word IDs. Links between translations (EN ↔ PL ↔ IT) come from the
-shared Greek.
+Notes on the translations:
+- These are **not the texts read at Mass** (NABRE/ESV-CE, Biblia Tysiąclecia,
+  CEI 2008 are copyrighted). For the proof of concept we use public-domain texts.
+  The data format lets a translation be swapped later.
+- **Wujek** is a Catholic translation from the Latin Vulgate, in pre-war Polish
+  spelling (*Pharyzeuszowie*, *Bożéj*). Where the Vulgate adds words that are not
+  in the Greek, they are shown as words with no Greek counterpart. About 30
+  verses are missing from the Wikisource transcription (e.g. Lk 18:2–4,
+  Jn 4:2–9). None of them are in the proof-of-concept Gospels.
+- **Riveduta 1927** is a Protestant translation from the Greek. No
+  machine-readable public-domain Catholic Italian text (e.g. Martini) was found.
+  Its verse divisions sometimes differ, and the alignment handles that
+  (e.g. Mt 22:19).
+- **World English Bible** follows the Byzantine Greek text in a few places, so
+  some words (e.g. "to him" in Lk 12:41) have no counterpart in the SBLGNT.
+- The lectionary passages are shown without the liturgical opening ("At that
+  time Jesus said…").
 
-Approach:
-1. Tokenize the Greek and each translation, verse by verse.
-2. Make automatic first-pass alignments with a statistical word aligner and/or
-   an LLM.
-3. **Have a human review** each Gospel passage, starting with the most-read
-   passages (Sundays and solemnities).
-4. Store a confidence/review flag on each link, and show unreviewed links in
-   the UI as "suggested".
+### 4.2 Word alignment
 
-The four Gospels have roughly 64,000 Greek words, and the lectionary uses most
-of them. Reviewing passage by passage is feasible over time.
-
-## 5. Proposed architecture
+The Greek text is the **pivot**. Each word in each translation links to one or
+more Greek words of the verse. Links between translations (EN ↔ PL ↔ IT) follow
+from the shared Greek. Alignments live in `data-src/alignments/*.txt` in a
+compact, hand-editable format:
 
 ```
-          ┌──────────────────────────────────────────┐
-          │           Data pipeline (offline)        │
-          │  Greek text + morphology + lexicon       │
-          │  EN / PL / IT texts                      │
-          │  alignment (auto + human review)         │
-          │  lectionary table                        │
-          └──────────────────┬───────────────────────┘
-                             │  JSON per passage + concordance index
-                             ▼
-┌──────────────┐     ┌──────────────────────────────┐
-│  Calendar    │────▶│  App (web / PWA, mobile-first)│
-│  (romcal)    │     │  - Today's Gospel            │
-└──────────────┘     │  - Tap word → panel          │
-                     │  - Other occurrences         │
-                     └──────────────────────────────┘
+@ 22:20
+en: He[2] asked[2] them[3], “Whose[4] is this[7] image[6] and[8] inscription[10]?”
+pl: I[1] rzekł[2] im[3] Jezus: Czyj[4] jest ten[7] obraz[6] i[8] napis[10]?
+it: Di[4] chi[4] è questa[7] effigie[6] e[8] questa iscrizione[10]?
 ```
 
-- **Offline data pipeline.** Builds static JSON files, one per Gospel passage,
-  plus a lemma → occurrences index for the concordance.
-- **Client app.** Mobile-first progressive web app. It works offline once
-  loaded and can later be wrapped as an Android/iOS app.
-- **No server needed at first.** The calendar is computed on the device and the
-  texts are static files.
+- `word[3]` links a word to Greek word 3 of the verse; `word[3,4]` links it to
+  several; `word[20.2]` links it to word 2 of verse 20 (verse-boundary
+  differences).
+- A bracket inside a word splits it: `coglier[9]lo[8]`, `co[4]ć[5]`.
+- A word without a bracket has no Greek counterpart.
+- The build checks that the annotated text, with the brackets removed, is
+  **exactly** the source translation. It also checks that every link points to
+  an existing Greek word.
 
-### 5.1 Data model (sketch)
+The 8 proof-of-concept Gospels were aligned by hand and have not been reviewed
+by a second person yet.
 
-```jsonc
-// greek token
-{ "id": "Mt22:20.4", "text": "εἰκὼν", "lemma": "εἰκών", "strong": "G1504",
-  "morph": "N-NSF", "translit": "eikōn", "lang": "grc" }   // "arc" for Aramaic words
+### 4.3 Data pipeline
 
-// translation token
-{ "id": "pl:Mt22:20.3", "text": "obraz", "greek": ["Mt22:20.4"],
-  "status": "reviewed" }                                   // or "suggested"
-
-// lemma entry
-{ "lemma": "εἰκών", "strong": "G1504",
-  "gloss": { "en": "image", "pl": "obraz", "it": "immagine" },
-  "occurrences": ["Mt22:20.4", "Mk12:16.5", "Col1:15.3", "..."] }
 ```
+sources/  (git-ignored downloads)          data-src/  (hand-made)
+  morphgnt/   Greek NT + tagging             lectionary.json   liturgical day -> passage
+  en-vpl/     WEB Catholic                   alignments/*.txt  word links
+  it-vpl/     Riveduta 1927                  lexicon.tsv       EN/PL/IT glosses + explanations
+  wujek/      Wujek 1923 (Wikisource)
+  dodson/     Dodson lexicon
+            \                               /
+             └──── tools/build.py ─────────┘
+                          │
+                          ▼
+  web/data/  lectionary.json, lemmas.json, passages/*.json,
+             conc/<lemma>.json (occurrences), text/<book>.json (verse texts)
+```
+
+Downloads: MorphGNT (`https://raw.githubusercontent.com/morphgnt/sblgnt/master/<NN-Book>-morphgnt.txt`),
+eBible VPL zips (`https://ebible.org/Scriptures/eng-web-c_vpl.zip`, `ita1927_vpl.zip`),
+Dodson (`dodson.xml` from its repository) and Wujek (`python3 tools/fetch_wujek.py sources/wujek`;
+Wikisource rate-limits, so the script waits between requests).
+
+## 5. Architecture
+
+```
+┌──────────────────┐     ┌───────────────────────────────────────┐
+│ web/js/calendar  │────▶│ web/js/app.js (no framework)          │
+│ liturgical day   │     │ - Gospel of the day                   │
+│ + lectionary key │     │ - tap word → panel (i18n.js labels)   │
+└──────────────────┘     │ - other occurrences (lazy-loaded JSON)│
+                         └───────────────────────────────────────┘
+```
+
+- No server: the calendar is computed on the device, and texts are static JSON
+  files loaded when needed (a passage is 15–40 KB; book texts load only when the
+  concordance needs them).
+- It can be hosted on any static host (e.g. GitHub Pages) by publishing `web/`.
 
 ## 6. Roadmap
 
-1. **MVP:** one Sunday Gospel, hand-aligned in all three languages. Tap-a-word
-   panel. Concordance within the four Gospels.
-2. **Calendar:** today's Gospel for the General Roman Calendar, then national
-   calendars (PL, IT, US/UK).
-3. **Coverage:** all Sunday and solemnity Gospels (cycles A/B/C) aligned and
-   reviewed.
-4. **Coverage:** weekday Gospels.
-5. **Extras:** parallel and interlinear views, Aramaic notes, NT-wide
-   concordance, bookmarks/notes, audio.
-6. **Later:** other readings (first reading, psalm). These need **Hebrew** and
-   the Greek Septuagint as the original.
+1. ~~**MVP:** Sunday Gospel hand-aligned in three languages, tap-a-word panel,
+   concordance~~ — done for one week (18–25 Oct 2026), with an NT-wide
+   concordance.
+2. **Calendar:** national calendars (Poland, Italy, US/UK: Epiphany, Ascension
+   and Corpus Christi moved to Sunday, national patrons), memorials.
+3. **Lectionary table:** all Sunday/solemnity references (cycles A/B/C) and
+   weekday references (cycles I/II).
+4. **Alignment at scale:** automatic first-pass alignment (statistical aligner
+   and/or LLM), then human review, starting with Sundays and solemnities.
+   Show unreviewed links as "suggested".
+5. **Lexicon at scale:** trilingual explanations for all Gospel vocabulary
+   (about 2,900 dictionary forms).
+6. **Extras:** interlinear view, Aramaic notes, bookmarks/notes, audio, offline
+   mode (service worker).
+7. **Later:** liturgical translations if permission is granted; other readings
+   (first reading, psalm), which need **Hebrew** and the Greek Septuagint.
 
-## 7. Open questions
+## 7. Decisions
 
-- Platform: web/PWA first, or a native mobile app from the start?
-- Translations: public-domain texts first, or wait for liturgical text
-  permissions?
-- Default calendar region: Poland, Italy, or the General Roman Calendar?
-- Should the word panel's dictionary explanations be in all three languages,
-  or English only at first?
+- Platform: **web app** (mobile-first, static).
+- Translations: **public-domain texts** for the proof of concept; no permission
+  requests for now.
+- Explanations: **in all three languages**.
+- Calendar: **General Roman Calendar** by default, until national calendars are
+  added.

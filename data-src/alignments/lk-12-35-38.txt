@@ -1,0 +1,22 @@
+# Tuesday of the 29th week in Ordinary Time. Format: see mt-22-15-21.txt
+book: Lk
+
+@ 12:35
+en: “Let[1] your[2] waist[4] be[1] dressed[5] and[6] your[2] lamps[8] burning[9].
+pl: Niech[1] będą[1] przepasane[5] biodra[4] wasze[2] i[6] pochodnie[8] gorejące[9] w rękach waszych.
+it: I[3] vostri[2] fianchi[4] siano[1] cinti[5], e[6] le[7] vostre[2] lampade[8] accese[9];
+
+@ 12:36
+en: Be[2] like[3] men[4] watching[5] for[5] their[8] lord[7] when[9] he[10] returns[10] from[11] the[12] wedding[13] feast[13], that[14] when[15] he[15] comes[15] and[16] knocks[17], they[19] may[19] immediately[18] open[19] to[20] him[20].
+pl: A[1] wy[2] podobni[3] ludziom[4] czekającym[5] na[5] pana[7] swego[8], kiedyby[9] się[10] z[11] gód[13] nawrócił[10], aby[14], gdy[15] przyjdzie[15] i[16] zakołace[17], natychmiast[18] mu[20] otworzyli[19].
+it: e[1] voi[2] siate simili[3] a quelli[4] che[5] aspettano[5] il[6] loro[8] padrone[7] quando[9] tornerà[10] dalle[11,12] nozze[13], per[14] aprir[19]gli[20] appena[18] giungerà[15] e[16] picchierà[17].
+
+@ 12:37
+en: Blessed[1] are those[4] servants[3] whom[5] the[7] lord[8] will[9] find[9] watching[10] when[6] he[6] comes[6]. Most[11] certainly[11] I[12] tell[12] you[13] that[14] he[15] will[15] dress[15] himself[15], make[17] them[18] recline[17], and[19] will[20] come[20] and serve[21] them[22].
+pl: Błogosławieni[1] oni[4] słudzy[3], które[5] przyszedłszy[6] Pan[8], znajdzie[9] czujące[10]. Zaprawdę[11] powiadam[12] wam[13], iż[14] się[15] przepasze[15] a[16] każe[17] im[18] sięść[17] a[19] przechadzając[20] się[20], będzie[21] im[22] służył[21].
+it: Beati[1] que’[4] servitori[3] che[5] il[7] padrone[8], arrivando[6], troverà[9] vigilanti[10]! In[11] verità[11] io[12] vi[13] dico[12] che[14] egli si[15] cingerà[15], li[18] farà[17] mettere[17] a[17] tavola[17] e[19] passerà[20] a servir[21]li[22].
+
+@ 12:38
+en: They[16] will[15] be[15] blessed[14] if[1] he[10] comes[10] in[2] the[3] second[4] or[5] third[8] watch[9] and[11] finds[12] them so[13].
+pl: A jeźliby[1] przyszedł[10] o[2] wtóréj[4] straży[9] i[5] jeźliby[5] o[6] trzeciéj[8] straży[9] przyszedł[10], a[11] tak[13]by nalazł[12], błogosławieni[14] są[15] oni[16] słudzy.
+it: E se[1] giungerà[10] alla[2,3] seconda[4] o[5] alla[6,7] terza[8] vigilia[9] e[11] li troverà[12] così[13], beati[14] loro[16]!
